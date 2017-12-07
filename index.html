@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- This is the HTML file for the Hangman-Game -->
 <html lang="en">
 
 <head>
@@ -6,55 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hangman-Game</title>
-    <!-- Latest compiled and minified CSS -->
-
-    <script type="text/javascript" src="script.js"></script>
-
+    <!-- Links Reset.css -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Links Bootstap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
+    <!-- Links style.css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
-    <h1 id=Hangman>Hangman</h1>
+
+    <header class=page-header>
+        <h1 id=Hangman>Star Wars Hangman</h1>
+    </header>
     <article>
-        <div>
-            Chances Left:
-            <div id=”chancesLeft”></div>
-
+        <div id="game">
+            <p>Trust your feelings</p>
+            <p>Enter a letter to start playing!</p>
         </div>
-        <br>
 
-        <div>
-            Wins:
-            <div id=”wins”></div>
-
-        </div>
-        <br>
-
-        <div>
-            You Guessed:
-            <div id=”userGuess”></div>
-
-        </div>
-        <br>
     </article>
-
-    <script>
-
-        var letters = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, x, y, z];
-        var userGuess = []
-        var
-
-            document.getElementById("userGuess").innerHTML = "userGuess";
-        if userGuess = 
-                return
-
-
-
+    <script src="assets/javascript/game.js">
     </script>
+    <footer class="footer">
+        <p class="text-muted text-muted-footer text-center">
+            &copy; Copyright 2017 Mark Powalisz
+            <audio src="assets/music/star_wars.mp3" controls autoplay loop>
+                <!-- <p>If you are reading this, it is because your browser does not support the audio element.</p> -->
+            </audio>
+        </p>
+    </footer>
 
 
 
